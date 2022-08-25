@@ -1,0 +1,70 @@
+body{
+  background-color: black;
+  color:  white;
+}
+.name-Game{
+  display:flex ;
+  justify-content: center;
+}
+.player{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tablero{
+  margin: auto;
+  width: 700px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn{
+  width: 200px;
+  height: 200px;
+  font-size: 100px;
+  margin: 15px;
+  border: 2px;
+  border: solid;
+  border-radius: 20px;
+  border-color: red;
+}
+#textoVictoria{
+  display: flex;
+  
+  justify-content: center;
+}
+#restart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#mueve{
+  visibility: hidden;
+  margin: auto;
+  width: 610px;
+}
+#btn-restart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  width: 70px;
+  height: 25px;
+
+}
+#btn-Player2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  width: 70px;
+  height: 25px;
+
+}
