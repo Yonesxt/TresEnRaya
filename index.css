@@ -68,6 +68,10 @@ body{
   height: 25px;
 
 }
+footer{
+  display: flex;
+  justify-content: center;
+}
 .img {
-  height: 50px;
+  height: 60px;
 }
